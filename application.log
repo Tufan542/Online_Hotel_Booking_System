@@ -1,0 +1,75 @@
+2024-10-09T17:49:29.343+05:30  INFO 5268 --- [restartedMain] com.airbnb.BnbApplication                : Starting BnbApplication using Java 17.0.10 with PID 5268 (C:\Users\ramta\Desktop\STS_Ultimate\bnb\bnb\target\classes started by ramta in C:\Users\ramta\Desktop\STS_Ultimate\bnb\bnb)
+2024-10-09T17:49:29.352+05:30  INFO 5268 --- [restartedMain] com.airbnb.BnbApplication                : No active profile set, falling back to 1 default profile: "default"
+2024-10-09T17:49:29.409+05:30  INFO 5268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T17:49:29.410+05:30  INFO 5268 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T17:49:30.129+05:30  INFO 5268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T17:49:30.224+05:30  INFO 5268 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 9 JPA repository interfaces.
+2024-10-09T17:49:30.934+05:30  INFO 5268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-09T17:49:30.945+05:30  INFO 5268 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T17:49:30.947+05:30  INFO 5268 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09T17:49:31.024+05:30  INFO 5268 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-09T17:49:31.025+05:30  INFO 5268 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1615 ms
+2024-10-09T17:49:31.180+05:30  INFO 5268 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T17:49:31.244+05:30  INFO 5268 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-09T17:49:31.435+05:30  WARN 5268 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-09T17:49:31.616+05:30  INFO 5268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T17:49:31.958+05:30  INFO 5268 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@318ae46d
+2024-10-09T17:49:31.961+05:30  INFO 5268 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T17:49:32.050+05:30  INFO 5268 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-10-09T17:49:33.281+05:30  INFO 5268 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-09T17:49:33.297+05:30  INFO 5268 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T17:49:34.719+05:30  WARN 5268 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T17:49:34.754+05:30  WARN 5268 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: aa14cbf7-30a7-4cde-8a63-c1c9b769c00a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-09T17:49:35.045+05:30  INFO 5268 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@128c4f2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5dea4eea, org.springframework.security.web.context.SecurityContextHolderFilter@5df04b7e, org.springframework.security.web.header.HeaderWriterFilter@2d3d228e, org.springframework.security.web.authentication.logout.LogoutFilter@6c299ed0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59a9b821, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d7b4084, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a65f926, org.springframework.security.web.access.ExceptionTranslationFilter@351d4fc5, com.airbnb.config.JWTFilter@2063977b, org.springframework.security.web.access.intercept.AuthorizationFilter@d785a3e]
+2024-10-09T17:49:35.270+05:30  INFO 5268 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T17:49:35.307+05:30  INFO 5268 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-09T17:49:35.316+05:30  INFO 5268 --- [restartedMain] com.airbnb.BnbApplication                : Started BnbApplication in 6.393 seconds (process running for 7.149)
+2024-10-09T17:49:43.177+05:30  INFO 5268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-09T17:49:43.178+05:30  INFO 5268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-09T17:49:43.180+05:30  INFO 5268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-09T17:49:43.378+05:30  WARN 5268 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [142] milliseconds.
+2024-10-09T17:50:35.860+05:30  INFO 5268 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T17:50:35.864+05:30  INFO 5268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T17:50:35.873+05:30  INFO 5268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-09T17:50:40.949+05:30  INFO 11708 --- [restartedMain] com.airbnb.BnbApplication                : Starting BnbApplication using Java 17.0.10 with PID 11708 (C:\Users\ramta\Desktop\STS_Ultimate\bnb\bnb\target\classes started by ramta in C:\Users\ramta\Desktop\STS_Ultimate\bnb\bnb)
+2024-10-09T17:50:40.951+05:30  INFO 11708 --- [restartedMain] com.airbnb.BnbApplication                : No active profile set, falling back to 1 default profile: "default"
+2024-10-09T17:50:40.991+05:30  INFO 11708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09T17:50:40.992+05:30  INFO 11708 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09T17:50:41.609+05:30  INFO 11708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09T17:50:41.704+05:30  INFO 11708 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 9 JPA repository interfaces.
+2024-10-09T17:50:42.255+05:30  INFO 11708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-10-09T17:50:42.264+05:30  INFO 11708 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-09T17:50:42.265+05:30  INFO 11708 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09T17:50:42.332+05:30  INFO 11708 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-09T17:50:42.332+05:30  INFO 11708 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1340 ms
+2024-10-09T17:50:42.432+05:30  INFO 11708 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09T17:50:42.473+05:30  INFO 11708 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-09T17:50:42.616+05:30  WARN 11708 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-09T17:50:42.752+05:30  INFO 11708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-09T17:50:43.041+05:30  INFO 11708 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@205c0ac7
+2024-10-09T17:50:43.043+05:30  INFO 11708 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-09T17:50:43.122+05:30  INFO 11708 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-10-09T17:50:44.047+05:30  INFO 11708 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-09T17:50:44.057+05:30  INFO 11708 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T17:50:45.265+05:30  WARN 11708 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09T17:50:45.294+05:30  WARN 11708 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bc6e8ff0-4349-4f4a-8c7c-51a44944c323
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-10-09T17:50:45.571+05:30  INFO 11708 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1c247d03, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44aeaba1, org.springframework.security.web.context.SecurityContextHolderFilter@46525712, org.springframework.security.web.header.HeaderWriterFilter@157135ec, org.springframework.security.web.authentication.logout.LogoutFilter@42e02ff6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f16d635, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b5031e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3930a5eb, org.springframework.security.web.access.ExceptionTranslationFilter@4ca85eb8, com.airbnb.config.JWTFilter@30fea690, org.springframework.security.web.access.intercept.AuthorizationFilter@242f8fa1]
+2024-10-09T17:50:45.827+05:30  INFO 11708 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-09T17:50:45.860+05:30  INFO 11708 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-10-09T17:50:45.868+05:30  INFO 11708 --- [restartedMain] com.airbnb.BnbApplication                : Started BnbApplication in 5.336 seconds (process running for 6.172)
+2024-10-09T17:50:49.506+05:30  INFO 11708 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-09T17:50:49.506+05:30  INFO 11708 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-09T17:50:49.508+05:30  INFO 11708 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-09T17:56:14.846+05:30  INFO 11708 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09T17:56:14.850+05:30  INFO 11708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-09T17:56:14.861+05:30  INFO 11708 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
